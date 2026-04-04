@@ -48,7 +48,7 @@ const Footer = () => {
             <Link
               key={index}
               href={route.url}
-              target={!route.isExternal ? "_blank" : ""}
+              target={ "_blank"}
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 hover:text-[#EEEEEE] transition-all duration-200"
             >
