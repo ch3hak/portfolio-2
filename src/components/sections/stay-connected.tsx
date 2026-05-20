@@ -149,8 +149,7 @@ export default function StayConnected({
               </div>
             </div>
           </div>
-
-          <p className="text-sm text-zinc-600 dark:text-[#B4B4B4] mb-4">
+          {/* <p className="text-sm text-zinc-600 dark:text-[#B4B4B4] mb-4">
             {content?.text}
           </p>
 
@@ -195,12 +194,12 @@ export default function StayConnected({
                 )}
               </Button>
             </form>
-          </Form>
+          </Form> */}
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-between p-6 border-t border-dashed gap-3">
           <span className="w-full text-sm text-zinc-600 dark:text-[#B4B4B4]">
-            Alternatively, you can schedule a call with me to discuss anything
+            You can schedule a call with me to discuss anything
             you&apos;d like. I&apos;m always open to new ideas and
             opportunities.
           </span>
